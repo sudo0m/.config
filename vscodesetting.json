@@ -5,7 +5,6 @@
     "explorer.confirmDragAndDrop": false,
     "workbench.editor.untitled.hint": "hidden",
     "liveServer.settings.donotShowInfoMsg": true,
-    "editor.suggest.snippetsPreventQuickSuggestions": false,
     "[html]": {
         "editor.defaultFormatter": "vscode.html-language-features"
     },
@@ -19,6 +18,15 @@
     "editor.cursorBlinking": "smooth", //使编辑器光标的闪烁平滑，有呼吸感
     "editor.cursorSmoothCaretAnimation": "on", //让光标移动、插入变得平滑
     "workbench.list.smoothScrolling": true, //滚动变得平滑
-    "workbench.colorTheme": "Dracula",
-    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Dracula", //设置主题
+    "workbench.iconTheme": "material-icon-theme", //设置图标
+    "editor.guides.bracketPairs": true, //括号参考线
+    "translateVariable.isCopy": false,
+    "translateVariable.isTransHover": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.fontFamily": "Fira Code", //设置字体
+    "editor.fontLigatures": true,
+    "codeium.enableConfig": {
+        "*": true
+    },
 }
